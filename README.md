@@ -7,4 +7,4 @@ my project by pushing things to my repository on GitHub.
 
 The layout of the website is just a simple project that has
 information about me, a portfolio showing some of my work, and
-a contact page  so that somebody could get ahold of me if needed.
+a contact page so that somebody could get ahold of me if needed.
