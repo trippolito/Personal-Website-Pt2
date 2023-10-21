@@ -1,7 +1,8 @@
-* {
+body {
   background-color: black;
   color: white;
   font-family: serif;
+
 }
 
 header {
@@ -22,7 +23,6 @@ nav {
 
 nav>a {
   background-color: grey;
-  /* font-size: 16pt; */
 }
 
 .navName {
@@ -41,20 +41,16 @@ nav>a {
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 20px;
+  padding-bottom: 10px;
   padding-left: 50px;
   padding-right: 50px;
 }
+
 
 #socials {
   display: flex;
   width: 250px;
   justify-content: space-between;
-  background-color: grey;
-}
-
-#socials>a {
-  border-color: grey;
-  border-radius: 50%;
 }
 
 footer {
@@ -62,4 +58,17 @@ footer {
   background-color: grey;
   justify-content: center;
   margin-top: 20px;
+}
+
+
+.hobby {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  padding: 20px;
+}
+
+article {
+  border: 2px solid black;
 }

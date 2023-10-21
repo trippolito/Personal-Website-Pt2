@@ -1,7 +1,6 @@
 <html>
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Me</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -9,61 +8,70 @@
 <body>
   <header>
     <p class="navName">About Me</p>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="portfolio.html">Portfolio</a>
-    <a href="contact.html">Contact</a>
-
+    <nav>
+      <a href="./index.html">Home</a>
+      <a href="./about.html">About</a>
+      <a href="./portfolio.html">Portfolio</a>
+      <a href="./contact.html">Contact</a>
+    </nav>
   </header>
   <section>
-    <h1 style="text-decoration: underline;">My Hobbies</h1>
-    <article>
-      <img src="./pics/coding.jpeg" alt="coding picture">
-      <p style="font-size: 18pt;"><b>Coding:</b> &nbsp;&nbsp;&nbsp; Lorem ipsum dolor sit amet consectetur
-        adipiscing
-        elit ut. Dictum varius duis at consectetur. Pretium lectus quam id leo in. Lectus vestibulum mattis
-        ullamcorper velit sed ullamcorper morbi. Risus commodo viverra maecenas accumsan lacus vel facilisis
-        volutpat.
-        Enim ut tellus elementum sagittis vitae. Nunc scelerisque viverra mauris in aliquam sem fringilla. Tristique
-        senectus et netus et malesuada fames ac turpis. Varius morbi enim nunc faucibus. Egestas purus viverra
-        accumsan in nisl nisi scelerisque. Porttitor leo a diam sollicitudin tempor id eu nisl nunc.</p>
-    </article>
-    <article>
-      <img src="./pics/painting.jpeg" alt="painting">
-      <p style="font-size: 18pt;"><b>Painting:</b> &nbsp;&nbsp;&nbsp; Ipsum dolor sit amet, consectetur adipiscing
-        elit, sed do eiusmod tempo incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostru
-        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proides sunt
-        in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </article>
-    <article>
-      <img src="./pics/music.jpeg" alt="music picture">
-      <p style="font-size: 18pt;"><b>Music:</b> &nbsp;&nbsp;&nbsp; Nunc scelerisque viverra mauris in aliquam sem
-        fringilla. Sem et tortor consequat id porta nibh venenatis cras. Egestas integer eget aliquet nibh praesent
-        tristique magna sit amet. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat.
-        Pellentesque diam volutpat commodo sed. Sagittis vitae et leo duis ut diam. Pellentesque nec nam aliquam sem
-        et tortor.</p>
-    </article>
-    <article>
-      <img src="./pics/videoGames.jpeg" alt="picture of a video game" width="275px">
-      <p style="font-size: 18pt;"><b>Video Games:</b> &nbsp;&nbsp;&nbsp; Mi sit amet mauris commodo quis imperdiet
-        massa tincidunt. Elit ut aliquam purus sit amet. Tortor pretium viverra suspendisse potenti nullam ac tortor
-        vitae purus. Sociis natoque penatibus et magnis dis. Nunc aliquet bibendum enim facilisis gravida neque.
-        Mauris vitae ultricies leo integer malesuada. Sed augue lacus viverra vitae congue eu.</p>
-    </article>
-    </article>
+    <div id="content">
+      <h1 style="text-decoration: underline;">My Hobbies</h1>
+      <article class="hobby">
+        <img src="./pics/coding.jpeg" alt="coding picture" height="225px" width="300px">
+        <p style="font-size: 18pt;"><b>Coding:</b> &nbsp;&nbsp;&nbsp; Lorem ipsum dolor sit amet consectetur
+          adipiscing
+          elit ut. Dictum varius duis at consectetur. Pretium lectus quam id leo in. Lectus vestibulum mattis
+          ullamcorper velit sed ullamcorper morbi. Risus commodo viverra maecenas accumsan lacus vel facilisis
+          volutpat.
+          Enim ut tellus elementum sagittis vitae. Nunc scelerisque viverra mauris in aliquam sem fringilla. Tristique
+          senectus et netus et malesuada fames ac turpis. Varius morbi enim nunc faucibus. Egestas purus viverra
+          accumsan in nisl nisi scelerisque. Porttitor leo a diam sollicitudin tempor id eu nisl nunc.</p>
+      </article>
+      <article class="hobby">
+        <img src="./pics/painting.jpeg" alt="painting" height="225px" width="300px">
+        <p style="font-size: 18pt;"><b>Painting:</b> &nbsp;&nbsp;&nbsp; Ipsum dolor sit amet, consectetur adipiscing
+          elit, sed do eiusmod tempo incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostru
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+          in
+          voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proides
+          sunt
+          in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </article>
+      <article class="hobby">
+        <img src="./pics/music.jpeg" alt="music picture" height="225px" width="300px">
+        <p style="font-size: 18pt;"><b>Music:</b> &nbsp;&nbsp;&nbsp; Nunc scelerisque viverra mauris in aliquam sem
+          fringilla. Sem et tortor consequat id porta nibh venenatis cras. Egestas integer eget aliquet nibh praesent
+          tristique magna sit amet. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat.
+          Pellentesque diam volutpat commodo sed. Sagittis vitae et leo duis ut diam. Pellentesque nec nam aliquam sem
+          et tortor.</p>
+      </article>
+      <article class="hobby">
+        <img src="./pics/videoGames.jpeg" alt="picture of a video game" height="225px" width="300px">
+        <p style="font-size: 18pt;"><b>Video Games:</b> &nbsp;&nbsp;&nbsp; Mi sit amet mauris commodo quis imperdiet
+          massa tincidunt. Elit ut aliquam purus sit amet. Tortor pretium viverra suspendisse potenti nullam ac tortor
+          vitae purus. Sociis natoque penatibus et magnis dis. Nunc aliquet bibendum enim facilisis gravida neque.
+          Mauris vitae ultricies leo integer malesuada. Sed augue lacus viverra vitae congue eu.</p>
+      </article>
+      </article>
+    </div>
   </section>
   <footer>
-    <a href="https://www.instagram.com/tripboogie/">
-      <img src="./pics/blackInsta.png" alt="my Instagram link" height="50px" width="50px" style="border-radius: 20px;">
-    </a>
-    <a href="https://www.facebook.com/travynn.ippolito.7">
-      <img src="./pics/blackWhiteFb.png" alt="my facebook link" height="50px" width="50px" style="border-radius: 20px;">
-    </a>
-    <a href="https://twitter.com/TripBoogie">
-      <img src="./pics/blackWhiteTwitter.png" alt="my Twitter link" height="50px" width="50px"
-        style="border-radius: 20px;">
-    </a>
+    <div id="socials">
+      <a href="https://www.instagram.com/tripboogie/">
+        <img src="./pics/blackInsta.png" alt="my Instagram link" height="50px" width="50px"
+          style="border-radius: 20px;">
+      </a>
+      <a href="https://www.facebook.com/travynn.ippolito.7">
+        <img src="./pics/blackWhiteFb.png" alt="my facebook link" height="50px" width="50px"
+          style="border-radius: 20px;">
+      </a>
+      <a href="https://twitter.com/TripBoogie">
+        <img src="./pics/blackWhiteTwitter.png" alt="my Twitter link" height="50px" width="50px"
+          style="border-radius: 20px;">
+      </a>
+    </div>
   </footer>
 </body>
 
